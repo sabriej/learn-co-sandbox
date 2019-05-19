@@ -1,0 +1,19 @@
+class Hello extends React.Component
+render() {
+return (
+<div>
+<Card headerName="header1"></Card>
+<Card headerName="does this even work"></Card>
+<Card headerName="something else"></Card>
+
+}
+}
+class Card extends React.Component {
+render() {
+return (
+<div>
+<h1>Heading</h1>
+<img src="https://images.unsplash.com/photo-1520882948759-529963a84160?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80></img>
+
+<a href="http:google.com">Googs</a>
+</div>)
